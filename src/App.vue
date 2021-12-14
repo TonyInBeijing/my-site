@@ -7,4 +7,5 @@ import Home from "./pages/home.vue";
 </script>
 
 <style>
+@import url(./index.css);
 </style>
