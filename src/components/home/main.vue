@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 <style scoped>
 .main{
-    height: 92vh;
+    height: 94vh;
     background: #000;
 }
 </style>

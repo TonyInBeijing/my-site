@@ -1,6 +1,6 @@
 <template>
     <div class="header padding-lr-xl">
-        <div class="text-bold text-l">越越的个人博客</div>
+        <div class="text-bold text-l">YueYue Blog</div>
         <div class="flex-grow-1 button-group">123</div>
     </div>
 </template>
@@ -8,8 +8,8 @@
 </script>
 <style scoped>
 .header {
-    height: 8vh;
-    line-height: 8vh;
+    height: 6vh;
+    line-height: 6vh;
     display: flex;
 }
 .flex-grow-1{
