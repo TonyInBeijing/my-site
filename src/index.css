@@ -13,6 +13,14 @@
     font-weight: bold;
 }
 
+.text-xs {
+    font-size: 0.6rem;
+}
+
+.text-s {
+    font-size: 0.8rem;
+}
+
 .text-df {
     font-size: 1rem;
 }
@@ -25,7 +33,20 @@
     font-size: 1.6rem;
 }
 
+.text-black{
+    color: #000000
+}
+
+.text-white{
+    color: #FFFFFF
+}
+
 /* 背景 */
+
+.bg-black {
+    background-color: #000000;
+    color: #FFFFFF;
+}
 
 
 /* padding  */
@@ -84,9 +105,6 @@
 .padding-lr-s {
     padding: 0 16px
 }
-
-
-
 
 .padding-xs {
     padding: 8px;
@@ -170,4 +188,10 @@
 
 .padding-lr-xl {
     padding: 0 40px
+}
+
+/* margin */
+
+.margin-left-xs{
+    margin-left: 8px;
 }
