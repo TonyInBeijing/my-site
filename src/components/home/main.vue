@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div class="main padding-xl">
         这是main slot
     </div>
 </template>
@@ -7,6 +7,5 @@
 <style scoped>
 .main{
     height: 94vh;
-    background: #000;
 }
 </style>

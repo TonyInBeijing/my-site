@@ -7,7 +7,7 @@
                     <el-icon>
                         <User />
                     </el-icon>
-                    <span class="text-bold margin-left-xs">12345</span>
+                    <span class="text-bold margin-left-xs">{{visitorCount}}</span>
                 </span>
             </el-tag>
         </div>
@@ -20,7 +20,6 @@ import { onMounted, ref } from 'vue';
 const visitorCount = ref<number>(0);
 
 onMounted((): void => {
-    console.log("mounted!");
     visitorCount.value++;
 });
 </script>
@@ -29,6 +28,7 @@ onMounted((): void => {
     height: 6vh;
     line-height: 6vh;
     display: flex;
+    border-bottom: 1px solid #d9d9d9;
 }
 .flex-grow-1 {
     flex-grow: 1;
