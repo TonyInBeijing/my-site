@@ -5,11 +5,20 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "../pages/home.vue";
+import Main from "../components/home/main.vue";
+
 
 const routes = [{
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    children: [
+        {
+            path: "/",
+            name: "Main",
+            component: Main
+        }
+    ]
 }];
 
 const router = createRouter({
