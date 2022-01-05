@@ -1,6 +1,6 @@
 <template>
     <div class="header padding-lr-xl">
-        <div class="text-bold text-l">YueYue Blog</div>
+        <div class="text-bold text-l">YueHaowei's Blog</div>
     </div>
 </template>
 <script setup lang="ts">

@@ -33,12 +33,16 @@
     font-size: 1.6rem;
 }
 
+.text-gray {
+    color: #909399;
+}
+
 .text-black {
-    color: #000000
+    color: #000000;
 }
 
 .text-white {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 /* 背景 */
@@ -191,6 +195,18 @@
 }
 
 /* margin */
+
+.margin-top-xs {
+    margin-top: 8px;
+}
+
+.margin-top-s {
+    margin-top: 16px;
+}
+
+.margin-top {
+    margin-top: 24px;
+}
 
 .margin-left-xs {
     margin-left: 8px;
