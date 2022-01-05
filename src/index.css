@@ -33,11 +33,11 @@
     font-size: 1.6rem;
 }
 
-.text-black{
+.text-black {
     color: #000000
 }
 
-.text-white{
+.text-white {
     color: #FFFFFF
 }
 
@@ -192,6 +192,11 @@
 
 /* margin */
 
-.margin-left-xs{
+.margin-left-xs {
     margin-left: 8px;
+}
+
+/* 布局 */
+.text-center {
+    text-align: center;
 }
